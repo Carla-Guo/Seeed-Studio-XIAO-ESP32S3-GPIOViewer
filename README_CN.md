@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Information Displayed on the Web Page
+## 📌 网页上显示的信息
 
 实时网页界面显示以下信息：
 
@@ -18,7 +18,7 @@
 
 ---
 
-## ⭐ Features
+## ⭐ 特点
 
 该项目具有以下亮点：
 
@@ -30,13 +30,13 @@
 
 ---
 
-## 🛠 Build Process
+## 🛠 构建过程
 
 这是一个适合初学者的完整工作流程，从准备开发环境到在 XIAO 板上运行 GPIO Viewer。 
 
 ---
 
-### 1. Prepare Your Computer
+### 1. 准备您的电脑
 
 在连板之前，需要安装 Thonny IDE：
 
@@ -48,7 +48,7 @@
 
 ---
 
-### 2. Install Python Tools Needed (Esptool)
+### 2. 安装所需的 Python 工具（Esptool）
 
 要烧写 MicroPython 固件，需要安装 `esptool`：
 
@@ -60,7 +60,7 @@ pip install esptool
 
 ---
 
-### 3. Download the MicroPython Firmware
+### 3. 下载 MicroPython 固件
 
 1. 访问：[https://micropython.org/download/ESP32_GENERIC_S3/](https://micropython.org/download/ESP32_GENERIC_S3/)
 2. 下载最新的 `.bin` 固件文件（如 `ESP32_GENERIC_S3-xxxxx.bin`）。
@@ -68,7 +68,7 @@ pip install esptool
 
 ---
 
-### 4. Connect Your XIAO ESP32-S3 (Sense) to Your Computer
+### 4. 将您的 XIAO ESP32-S3（Sense）连接到您的计算机
 
 1. 使用 USB-C 数据线连接 XIAO 到电脑。
 2. 若板子未显示，可在插入同时按住 **BOOT** 按钮。
@@ -76,7 +76,7 @@ pip install esptool
 
 ---
 
-### 5. Flash (Install) MicroPython onto the Board
+### 5. 将 MicroPython 烧录（安装）到开发板上
 
 **清除旧固件：**
 
@@ -97,7 +97,7 @@ esptool.py --chip esp32s3 --port COMX write_flash -z 0x0 ESP32_GENERIC_S3-xxxx.b
 
 ---
 
-### 6. Open Thonny and Connect to the Board
+### 6. 打开 Thonny 并连接到董事会
 
 1. 断开 XIAO，等待 5 秒后重新插入。
 2. 在 Thonny 中打开：**Run → Configure Interpreter**。
@@ -113,16 +113,14 @@ print("Hello from XIAO!")
 
 ---
 
-### 7. Download the GPIOViewer Project Files
+### 7. 下载 GPIOViewer 项目文件
 
-1. 打开浏览器访问项目仓库：
-   [https://github.com/TuzaaBap/Seeed-Studio-XIAO-ESP32S3-GPIOViewer/tree/main](https://github.com/TuzaaBap/Seeed-Studio-XIAO-ESP32S3-GPIOViewer/tree/main)
-2. 点击 **Code → Download ZIP**。
-3. 解压 ZIP 到本地文件夹。 
+1. 点击 **Code → Download ZIP**。
+2. 解压 ZIP 到本地文件夹。 
 
 ---
 
-### 8. Upload the Project to Your Board
+### 8. 将项目上传到您的开发板
 
 在 Thonny：
 
@@ -135,7 +133,7 @@ print("Hello from XIAO!")
 
 ---
 
-### 9. Configure Your Wi-Fi (inside `boot.py`)
+### 9. 配置您的 Wi-Fi（在 boot.py 文件中）
 
 编辑 `boot.py`：
 
@@ -149,7 +147,7 @@ password = "Your_WiFi_Password"
 
 ---
 
-### 10. Run and View the GPIO Monitor
+### 10. 运行并查看 GPIO Monitor
 
 1. 在 Thonny 中点击 **Run**（绿色 ▶ 按钮）。
 2. 等待 XIAO 连接 Wi-Fi。
