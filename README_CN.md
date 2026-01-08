@@ -161,7 +161,7 @@ password = "Your_WiFi_Password"
 
 ---
 
-## ✨ Contributor Project
+## ✨ Reference
 
 该项目是 https://github.com/TuzaaBap/Seeed-Studio-XIAO-ESP32S3-GPIOViewer 的分支。
 
