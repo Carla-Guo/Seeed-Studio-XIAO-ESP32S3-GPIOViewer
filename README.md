@@ -137,10 +137,8 @@ print("Hello from XIAO!")
 
 ### 7. Download the GPIO Viewer Project
 
-1. Visit the project repository:
-   [https://github.com/TuzaaBap/Seeed-Studio-XIAO-ESP32S3-GPIOViewer/tree/main](https://github.com/TuzaaBap/Seeed-Studio-XIAO-ESP32S3-GPIOViewer/tree/main)
-2. Click **Code → Download ZIP**
-3. Extract the ZIP file locally
+1. Click **Code → Download ZIP**
+2. Extract the ZIP file locally
 
 ---
 
